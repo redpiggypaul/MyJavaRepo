@@ -182,8 +182,8 @@ public class dataGenerator4JMeter {
         //TXTedit.readTxtFile();
         for(int ind=1;ind<=20000;ind++) {
        //     if(ind%4==0) {
-           //     TXTedit.method1(path, "20160923" + Integer.toString(start + ind) + ",中国银行,6222530000000000,张小月,330424000000000000,银盛测试商户一");
-            dataGenerator4JMeter.method1(path, "20160925" + Integer.toString(start + ind) + ",工商银行,6222021001048938630,段韵秋,510107199108082628,北京欧美纳全盛信息科技有限公司");
+           //     TXTedit.method1(path, "20160923" + Integer.toString(start + ind) + ",中国银行,6222530000000000,张小月,330424000000000000,测试商户一");
+            dataGenerator4JMeter.method1(path, "20160925" + Integer.toString(start + ind) + ",工商银行,6222021001048938630,段秋,510107199108082628,北京信息科技有限公司");
           //  }
         }
 //        ReadWriteFile.replaceTxtByStr("ken", "zhang");
