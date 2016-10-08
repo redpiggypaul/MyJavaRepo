@@ -9,14 +9,13 @@ import java.io.*;
  *
  * 功能描述：创建TXT文件并进行读、写、修改操作
  *
- * @author <a href="mailto:zhanghhui@126.com">KenZhang</a>
+ * @author <a href="mailto:paul_26piggy@hotmail.com">paulzhu</a>
  * @version 1.0
- * Creation date: 2007-12-18 - 下午06:48:45
+ * Creation date: 2016-09-18 - 下午06:48:45
  */
 public class dataGenerator4JMeter {
     public static BufferedReader bufread;
     //指定文件路径和名称
-   // private static String path = "F:/dfyspay_data_success.txt";
     private static String path = "F:/suncity.txt";
 
     private static  File filename = new File(path);
